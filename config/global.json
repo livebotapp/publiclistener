@@ -1,0 +1,17 @@
+{
+    "redis": {
+        "addr": "localhost:6379",
+        "password": ""
+    },
+    "http": {
+        "port": "8080"
+    },
+    "kickchat": {
+        "protocol": "ws",
+        "host": "ws-us2.pusher.com",
+        "path": "/app/eb1d5f283081a78b932c"
+    },
+    "queues": {
+        "confirmation_attempt_received": "confirmation:attempt:received"
+    }
+}
